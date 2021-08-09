@@ -35,8 +35,9 @@ func main() {
 		},
 	}
 
-	matheusPointer := &matheus
-	matheusPointer.updateName("Matias")
+	// matheusPointer := &matheus
+	// matheusPointer.updateName("Matias")
+	matheus.updateName("Matias")
 	matheus.print()
 }
 
